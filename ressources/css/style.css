@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    color: #555;
+
+    font-family: 'Lato', 'Arial', sans-serif;
+
+    font-weight: 300;
+
+    /*Garante que as fontes serão renderizadas priorizando a leitura*/
+    text-rendering: optimizeLegibility;
+
+    font-size: 20px;
+}
+
+header {
+
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(img/fachada.jpg);
+
+    background-size: cover;
+    
+}
+
+header h1 {
+    margin: 0;
+}
