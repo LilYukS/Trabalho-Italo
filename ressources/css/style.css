@@ -86,6 +86,9 @@ header h1 {
     position: absolute;
     top: 40%;
     left: 4%;
+
+    word-spacing: 5px;
+    letter-spacing: 4px;
 }
 
 .btn:link,
@@ -118,4 +121,56 @@ header h1 {
 .btn-ghost:active {
     background-color: red;
     color: white;
+}
+
+.section-features {
+    margin: 20px 10%;
+    color: black;
+}
+
+.section-features>div {
+    text-align: center;
+}
+
+.section-features h2 {
+    margin-bottom: 20px;
+}
+
+.section-features h2::after {
+    content: "";
+    height: 4px;
+    width: 100px;
+    background-color: orange;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.section-features ion-icon {
+    font-size: 40px;
+    color: orange;
+}
+
+.section-features .long-copy {
+    line-height: 1.5rem;
+}
+
+.section-photos .image-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.section-photos .image-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.section-photos .photos {
+    width: 100%;
+}
+
+.section-photos img {
+    width: 100%;
+    height: auto;
 }
