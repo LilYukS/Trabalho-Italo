@@ -140,7 +140,7 @@ header h1 {
     content: "";
     height: 4px;
     width: 100px;
-    background-color: orange;
+    background-color: red;
     display: block;
     margin: 0 auto;
     margin-top: 15px;
@@ -148,7 +148,7 @@ header h1 {
 
 .section-features ion-icon {
     font-size: 40px;
-    color: orange;
+    color: red;
 }
 
 .section-features .long-copy {
